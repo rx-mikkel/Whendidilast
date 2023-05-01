@@ -1,0 +1,29 @@
+.task {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 24px;
+    background-color: white;
+}
+
+.task + .task {
+    border-top: 1px solid rgba(50,0,50,.08);
+}
+
+.textArea {
+    padding-left: 24px;
+}
+
+.resetButton {
+    background-color: rgb(172, 226, 210);
+    border: none;
+    height: 64px;
+    width: 64px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sinceText {
+    font-weight: 700;
+    font-size: 14px;
+}
